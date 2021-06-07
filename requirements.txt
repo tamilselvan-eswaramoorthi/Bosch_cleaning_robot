@@ -1,0 +1,5 @@
+tqdm
+numba
+pillow
+opencv-python
+tensorflow==2.4.1
