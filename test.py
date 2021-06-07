@@ -31,7 +31,7 @@ args = parser.parse_args()
 
 #model initialization
 start_time = time.time()
-model = tf.saved_model.load('trained_model')
+model = tf.saved_model.load('model_v8')
 print('\nmodel initialized in {} seconds \n'.format(time.time() - start_time))
 
 
